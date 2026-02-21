@@ -8059,3 +8059,12 @@ java.io.IOException: Process timed-out and it was attempted to forcefully termin
 
 !ENTRY org.eclipse.lsp4e 4 0 2026-02-21 15:17:35.486
 !MESSAGE 15:17:35.075 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - additional reconciling with complete index triggered for: [E:\2-FSWD\workspace\ProductSearch\src\main\java\com\klu\ProductController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-21 15:33:51.898
+!MESSAGE 15:33:51.896 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///E:/2-FSWD/workspace/ProductSearch/src/main/java/com/klu/Product.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-21 15:33:51.905
+!MESSAGE 15:33:51.903 [pool-3-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///E:/2-FSWD/workspace/ProductSearch/src/main/java/com/klu/Product.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-21 15:33:52.670
+!MESSAGE 15:33:51.905 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///E:/2-FSWD/workspace/ProductSearch/src/main/java/com/klu/Product.java
