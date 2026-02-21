@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.klu.REPO&apos; to &apos;Repo&apos;&#x0D;&#x0A;- Original project: &apos;CRUD_DEMO-1&apos;&#x0D;&#x0A;- Original element: &apos;com.klu.REPO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.klu.Repo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;REPO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.klu{REPO.java[REPO" matchStrategy="1" name="Repo" qualified="false" references="true" similarDeclarations="false" stamp="1769660383524" textual="false" version="1.0"/>
+</session>

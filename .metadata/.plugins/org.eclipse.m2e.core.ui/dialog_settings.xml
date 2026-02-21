@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\2-FSWD\workspace\Constructor-DI\src\main\resources\applicationContext.xml"/>
+			<item value="E:\2-FSWD\workspace\Student-CRUD\src\main\java\com\example\Student_CRUD\App.java"/>
+			<item value="E:\2-FSWD\workspace\hibernate-project1\src\main\java\com\example\hibernate_project1\Employee.java"/>
+			<item value="E:\2-FSWD\workspace\steps\src\main\java\com\klu\AppController1.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.klu.Setters_DI"/>
+			<item value="com.klu.Constructor_DI"/>
+			<item value="com.example.CO1_CRUD_DEMO1"/>
+			<item value="com.example.Skill_2"/>
+			<item value="com.example.HQLDemo"/>
+			<item value="com.example.Student_CRUD"/>
+		</list>
+		<list key="groupId">
+			<item value="com.klu"/>
+			<item value="com.example"/>
+		</list>
+		<list key="artifactId">
+			<item value="Setters-DI"/>
+			<item value="Constructor-DI"/>
+			<item value="CO1_CRUD_DEMO1"/>
+			<item value="Skill-2"/>
+			<item value="HQLDemo"/>
+			<item value="Student-CRUD"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\2-FSWD\workspace\ Spring_CRUD_SSP"/>
+			<item value="E:\2-FSWD\workspace\Rest_Controller_Demo"/>
+			<item value="C:\Users\harsh\OneDrive\Desktop\Spring-di-withxml\Spring-di-withxml"/>
+			<item value="C:\Users\harsh\OneDrive\Desktop\Spring-di-withoutxml\Spring-di-withoutxml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;CRUD_DEMO-1&apos; to &apos; Spring_CRUD_SSP&apos;&#x0D;&#x0A;- Original element: &apos;CRUD_DEMO-1&apos;&#x0D;&#x0A;- Renamed element: &apos;CRUD_DEMO-1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;CRUD_DEMO-1&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=CRUD_DEMO-1" name=" Spring_CRUD_SSP" references="true" stamp="1770799379806" version="1.0"/>
+</session>

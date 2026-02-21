@@ -1,0 +1,61 @@
+package com.klu.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.klu.model.Customer;
+import com.klu.service.CustomerService;
+
+@RestController
+@CrossOrigin
+@RequestMapping("/api/customers")
+public class CustomerController {
+	
+	@Autowired
+	CustomerService cs;
+	
+	 // CREATE Customer
+    @PostMapping
+    public Customer addCustomer(@RequestBody Customer customer) {
+        return cs.addCustomer(customer);
+    }
+    
+ // READ All Customers
+    @GetMapping
+    public List<Customer> getAllCustomers() {
+        return cs.getAllCustomers();
+    }
+
+    // READ Product By ID
+    @GetMapping("/{id}")
+    public Customer getCustomerById(@PathVariable Long id) {
+        return cs.getCustomerById(id);
+    }
+    
+    // UPDATE Customer
+    @PutMapping("/{id}")
+    public Customer updateCustomer(@PathVariable Long id,
+                                 @RequestBody Customer customer) {
+        return cs.updateCustomer(id, customer);
+    }
+    
+    // DELETE Customer
+    @DeleteMapping("/{id}")
+    public String deleteCustomer(@PathVariable Long id) {
+        cs.deleteCustomer(id);
+        return "Product deleted successfully";
+    }
+
+
+
+}

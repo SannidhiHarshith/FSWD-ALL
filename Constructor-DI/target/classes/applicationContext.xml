@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.klu.Constructor_DI.Student">
+    
+      <constructor-arg value="1"/>
+      <constructor-arg value="srithar"/>
+      <constructor-arg value="25000"/>
+      <constructor-arg value="true"/>
+      <constructor-arg value="30"/>
+      <constructor-arg value="90"/>
+      <constructor-arg ref="course"/>
+    
+    </bean>   
+    
+    <bean id="course"  class="com.klu.Constructor_DI.Course">
+    
+    <constructor-arg value = "FULL STACK"/>
+    <constructor-arg value="2"/>
+    
+    
+    </bean>
+       
+       
+       
+
+       
+       
+</beans>

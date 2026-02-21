@@ -1,0 +1,19 @@
+package com.klu;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepo extends JpaRepository<Product, Long>{
+	
+	List<Product> findByCategory(String category);
+	
+	List<Product> findByCategoryAndPriceGreaterThan(String category, double price);
+	
+	//display by min max
+	
+	  List<Product> findByPriceBetween(long min, long max);
+
+}
